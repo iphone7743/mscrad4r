@@ -1,0 +1,248 @@
+I"�<p><br />
+<br />
+<br /></p>
+
+<h1 id="1-3d-cad-design">[1] 3D CAD Design</h1>
+<p><br />
+<img src="/assets/images/CAD_drawing.png" width="100%" height="100%" title="CAD design of a ROS-based small unmanned platform" alt="1" /></p>
+
+<p>Above figure shows the sensor coordinate systems and CAD design of the ROS-based small unmanned platform. The platform consists of the chassis and driving system based on <strong>Traxxas 77086-4</strong>. The driving system of Traxxas consists of a motor driver (VXL-8s, electronic speed controller), driving motor (1200XL, Velineon), steering motor (2085 servo, Traxxas), and additional encoder (RE30E-1000, Copal) for feedback control of platform speed. The whole driving system is powered by its own two 6700 mAh 14.8 V LiPo battery packs in parallel (2890c, Traxxas). In addition, we proceeded with the mobile PC Xavier for sensor acquisition and additional 3D design for autonomous sensors. Additionally, a monitoring desktop has been added to monitor ROS topic messages of sensors by a Wi-Fi router in real time.
+<br />
+<br />
+<br />
+<br /></p>
+
+<h1 id="2-sensor-configuration">[2] Sensor Configuration</h1>
+<p><br />
+<img src="/assets/images/Sensor_com.png" width="100%" height="100%" title="CAD design of a ROS-based small unmanned platform" alt="1" /></p>
+
+<p>Above figure shows the sensor architecture for autonomous driving of this platform, which includes <strong>LiDAR, radar, stereo camera, thermal camera, IMU and GPS</strong>. For a sufficient sensor power supply, the platform is equipped with an additional 40.8 Ah 12 V lithium-ion battery (18650, Lunavolt). Dimensions between each sensor are contained in the figure and are related to extrinsic parameters. Considering a real vehicle, the LiDAR height is set to 1,149 mm from the ground surface. Similarly, the height of the stereo RGB camera is set to 1,009 mm from the earth. The thermal camera, GPS, IMU and radar are located in the centerline with heights of 1,047 mm, 570 mm, 390mm and 150 mm, respectively. To prevent LiDAR oscillation in the roll/pitch direction, the velocity and stiffness of the suspension spring of the platform were limited. One important aspect of the proposed platform is waterproof cover design, which can help protect the sensors from rain, snow, dust and external impacts.
+<br />
+<br />
+<br />
+<br /></p>
+
+<h1 id="3-sensor-specifications">[3] Sensor Specifications</h1>
+
+<p><br /></p>
+
+<ul>
+  <li><strong>LIDAR : OS-1 Gen2</strong></li>
+</ul>
+
+<table>
+  <thead>
+    <tr>
+      <th>Specification</th>
+      <th>Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>vertical resolution</td>
+      <td>64 ch</td>
+    </tr>
+    <tr>
+      <td>horizontal resolution</td>
+      <td>1024</td>
+    </tr>
+    <tr>
+      <td>precision</td>
+      <td>+ - 0.7 ~ 5 cm</td>
+    </tr>
+    <tr>
+      <td>vertical FOV</td>
+      <td>45 degree</td>
+    </tr>
+    <tr>
+      <td>rotation rate</td>
+      <td>20 Hz</td>
+    </tr>
+    <tr>
+      <td>range</td>
+      <td>240 m</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><br /></p>
+
+<ul>
+  <li><strong>RADAR : ARS 408-21</strong></li>
+</ul>
+
+<table>
+  <thead>
+    <tr>
+      <th>Specification</th>
+      <th>Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>frequency band</td>
+      <td>77 GHz</td>
+    </tr>
+    <tr>
+      <td>range</td>
+      <td>0.2 ~ 250 m</td>
+    </tr>
+    <tr>
+      <td>vel accuracy</td>
+      <td>+- 0.1 km/h</td>
+    </tr>
+    <tr>
+      <td>azimuth accuracy</td>
+      <td>+-0.1 degree</td>
+    </tr>
+    <tr>
+      <td>cycle time</td>
+      <td>app. 0.72 ms</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><br /></p>
+
+<ul>
+  <li><strong>VIS CAMERA : BFS-U3-16S2C-CS</strong></li>
+</ul>
+
+<table>
+  <thead>
+    <tr>
+      <th>Specification</th>
+      <th>Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>mage format</td>
+      <td>BayerRG12p</td>
+    </tr>
+    <tr>
+      <td>image format</td>
+      <td>YUYV</td>
+    </tr>
+    <tr>
+      <td>sensor type</td>
+      <td>12-Bit RAW</td>
+    </tr>
+    <tr>
+      <td>resolution</td>
+      <td>1440 x 1080</td>
+    </tr>
+    <tr>
+      <td>pixel Size</td>
+      <td>4.5 x 4.5 µm</td>
+    </tr>
+    <tr>
+      <td>frame rate</td>
+      <td>43 FPS</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><br /></p>
+
+<ul>
+  <li><strong>Thermal CAMERA : Boson</strong></li>
+</ul>
+
+<table>
+  <thead>
+    <tr>
+      <th>Specification</th>
+      <th>Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>image format</td>
+      <td>YUV</td>
+    </tr>
+    <tr>
+      <td>sensor type</td>
+      <td>12-Bit RAW</td>
+    </tr>
+    <tr>
+      <td>resolution</td>
+      <td>640 x 512</td>
+    </tr>
+    <tr>
+      <td>pixel pitch</td>
+      <td>12 µm</td>
+    </tr>
+    <tr>
+      <td>frame rate</td>
+      <td>30 FPS</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><br /></p>
+
+<ul>
+  <li><strong>GPS : MRP-2000</strong></li>
+</ul>
+
+<table>
+  <thead>
+    <tr>
+      <th>Specification</th>
+      <th>Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>satellites signal tracking</td>
+      <td>GPS, GLONASS, Beidou, Galileo, QZSS, SBAS</td>
+    </tr>
+    <tr>
+      <td>RTK accuracy</td>
+      <td>+- 3 cm</td>
+    </tr>
+    <tr>
+      <td>sensing rate</td>
+      <td>20 Hz</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><br /></p>
+
+<ul>
+  <li><strong>IMU : MTI-630R</strong></li>
+</ul>
+
+<table>
+  <thead>
+    <tr>
+      <th>Specification</th>
+      <th>Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>roll(static)</td>
+      <td>0.2 degree RMS</td>
+    </tr>
+    <tr>
+      <td>pitch(static)</td>
+      <td>0.2 degree RMS</td>
+    </tr>
+    <tr>
+      <td>roll(dynamic)</td>
+      <td>0.5 degree RMS</td>
+    </tr>
+    <tr>
+      <td>pitch(dynamic)</td>
+      <td>0.5 degree RMS</td>
+    </tr>
+    <tr>
+      <td>yaw</td>
+      <td>1 degree RMS</td>
+    </tr>
+  </tbody>
+</table>
+:ET
