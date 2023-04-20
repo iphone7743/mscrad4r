@@ -5,7 +5,7 @@ author_profile: true
 use_math: true
 header:
   overlay_image: /assets/images/fig2_IONIQ.png
-  overlay_filter: 0.7
+  overlay_filter: 0.5
 ---
 
 
