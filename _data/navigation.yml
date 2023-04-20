@@ -47,6 +47,15 @@ sidebar-urban:
   - title: "Urban_F1"
     url: /urban/urbanF1/
 
+  - title: "Urban_G0"
+    url: /urban/urbanG0/
+  - title: "Urban_G1"
+    url: /urban/urbanG1/
+
+  - title: "Urban_H0"
+    url: /urban/urbanH0/
+  - title: "Urban_H1"
+    url: /urban/urbanH1/
 
 
 
