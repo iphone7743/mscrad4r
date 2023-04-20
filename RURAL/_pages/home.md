@@ -4,7 +4,7 @@ permalink: /rural/
 author_profile: false
 use_math: true
 header:
-  overlay_image: /assets/images/rvizdemo2.png
+  overlay_image: /assets/images/Gangwondo.png
   overlay_filter: 0.5
 
 sidebar:
