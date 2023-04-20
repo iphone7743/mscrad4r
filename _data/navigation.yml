@@ -57,6 +57,8 @@ sidebar-urban:
   - title: "Urban_H1"
     url: /urban/urbanH1/
 
+  - title: "Calibration Data"
+    url: /urban/calibration/
 
 
 
@@ -106,6 +108,8 @@ sidebar-rural:
   - title: "Rural_F2"
     url: /rural/ruralF2/
 
+  - title: "Calibration Data"
+    url: /rural/calibration/
 
 
 
