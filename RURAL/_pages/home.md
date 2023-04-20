@@ -1,6 +1,6 @@
 ---
 title: "Rural Dataset"
-permalink: /rural/
+permalink: /rural/overall/
 author_profile: false
 use_math: true
 header:
