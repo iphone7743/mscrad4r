@@ -1,0 +1,168 @@
+I"<p><br />
+<br />
+<br /></p>
+
+<h1 id="1-platform">[1] Platform</h1>
+<p><br /></p>
+
+<p><img src="/assets/images/fig2_IONIQ.png" width="100%" height="100%" title="platform" alt="1" /></p>
+
+<p><strong>Hyndai, IONIQ 2015 electric model</strong> is used for data acquisition.</p>
+
+<p><br />
+<br /></p>
+
+<h1 id="2-sensor-configuration">[2] Sensor Configuration</h1>
+
+<p><img src="/assets/images/fig1_CAD.png" width="100%" height="100%" title="CAD design of platform" alt="1" /></p>
+
+<p>Hardware sensor configuration of MSC-RAD4R dataset with top view. Sensor coordinates of each sensor are represented, where the coordinate frame is shown with red(x), green(y) and blue(z) axes. The colored triangles represent the field of view of each sensor, yellow for camera and red for 4D Radar.</p>
+
+<p><br />
+<br />
+<br />
+<br /></p>
+
+<h1 id="3-sensor-specifications">[3] Sensor Specifications</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Sensors</th>
+      <th>Specifications</th>
+      <th>Hz</th>
+      <th>Topic Name</th>
+      <th>Message Type</th>
+      <th>N</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Camera</td>
+      <td>FLIR, BFS-16S2C, HFoV, VFoV 60x45, resolutions 720x540</td>
+      <td>15</td>
+      <td>/camera_array/(left, right)/image_raw</td>
+      <td>/sensor_msgs/Image</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>LiDAR</td>
+      <td>Ouster, OS1-128, VFoV 45, range 200m</td>
+      <td>10</td>
+      <td>/ouster/points</td>
+      <td>/sensor_msgs/PointCloud2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>4D Radar</td>
+      <td>Oculii, Eagle, HFoV, VFoV 113x45, long range 400m</td>
+      <td>15</td>
+      <td>/oculii_radar/point_cloud</td>
+      <td>/sensor_msgs/PointCloud2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>IMU</td>
+      <td>Xsens, MTi-630, roll(0.2), pitch(0.5), yaw(1)</td>
+      <td>200</td>
+      <td>/imu/data</td>
+      <td>/sensor_msgs/Imu</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>RTK-GPS</td>
+      <td>Synerex, MRP-2000, RTK accuracy +- 3cm</td>
+      <td>10</td>
+      <td>/fix, /vel</td>
+      <td>/sensor_msgs/NavSatFix, /geometry_msgs/TwistStamped</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>GPS</td>
+      <td>UBlox, ZED-F9P, Pos. accuaracy 1.0 - 1.5m</td>
+      <td>10</td>
+      <td>/ublox_gps/fix, /ublox_gps/fix_velocity</td>
+      <td>/sensor_msgs/NavSatFix, /geometry_msgs/TwitWithCovarianceStamped</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>Wheel Speed</td>
+      <td>Autonics, PR30-10DN, detection dis. 10mm</td>
+      <td>100</td>
+      <td>/autoev(left, right)_wheel_rpm, /autoev(left, right)_wheel_vel</td>
+      <td>/std_msgs/Float32stamped, /std_msgs/Floar32stamped</td>
+      <td>2</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><br />
+<br />
+<br />
+<br /></p>
+
+<h1 id="4-4d-radar-data-format">[4] 4D Radar Data Format</h1>
+<p>Originally x, y and z are measured in Oculii coordinate, but these values were changed to LiDAR coordinates for the convenience of the ROS visualizer.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>name</th>
+      <th>description</th>
+      <th>units</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>x</td>
+      <td>oculii_z</td>
+      <td>[m]</td>
+    </tr>
+    <tr>
+      <td>y</td>
+      <td>- oculii_x</td>
+      <td>[m]</td>
+    </tr>
+    <tr>
+      <td>z</td>
+      <td>- oculii_y</td>
+      <td>[m]</td>
+    </tr>
+    <tr>
+      <td>beta</td>
+      <td>elevation angle</td>
+      <td>[degree]</td>
+    </tr>
+    <tr>
+      <td>alpha</td>
+      <td>azimuth angle</td>
+      <td>[degree]</td>
+    </tr>
+    <tr>
+      <td>power</td>
+      <td>signal-to-noise(SNR)</td>
+      <td>[dB]</td>
+    </tr>
+    <tr>
+      <td>doppler</td>
+      <td>doppler velocity in radial direction</td>
+      <td>[m/s]</td>
+    </tr>
+    <tr>
+      <td>range</td>
+      <td>distance of point</td>
+      <td>[m]</td>
+    </tr>
+    <tr>
+      <td>recoveredSpeed</td>
+      <td>recovered(absolute) speed in radial direction</td>
+      <td>[m/s]</td>
+    </tr>
+    <tr>
+      <td>denoiseFlag</td>
+      <td>flag for moving objects or noise</td>
+      <td>1 or 0</td>
+    </tr>
+  </tbody>
+</table>
+:ET

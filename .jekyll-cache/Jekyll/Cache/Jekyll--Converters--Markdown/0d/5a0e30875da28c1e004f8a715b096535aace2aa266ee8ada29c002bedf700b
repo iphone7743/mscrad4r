@@ -1,0 +1,22 @@
+I"½<p><br />
+<br />
+<br /></p>
+
+<h1 id="1-sample-data">[1] Sample Data</h1>
+
+<p><img src="/assets/images/rvizdemo2.png" width="100%" height="100%" title="CAD design of a ROS-based small unmanned platform" alt="1" /></p>
+
+<p>Visualization of storde data. The left upper part shows stereo images, the left lower part shows the point cloud from LiDAR, and the right window shows the visualization of the data from radar.</p>
+
+<p><br />
+<br />
+<br />
+<br /></p>
+
+<h1 id="2-sample-data">[2] Sample Data</h1>
+
+<p><img src="/assets/images/snow_sample.png" width="100%" height="100%" title="CAD design of a ROS-based small unmanned platform" alt="1" /></p>
+
+<p>Data samples acquired in a snowy environment.</p>
+
+:ET
