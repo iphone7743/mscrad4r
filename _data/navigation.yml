@@ -7,10 +7,10 @@ main:
     url: /platform/
 
   - title: "Urban Dataset"
-    url: /urban/
+    url: /urban/overall/
 
   - title: "Rural Dataset"
-    url: /rural/
+    url: /rural/overall/
 
 
 sidebar-urban:
