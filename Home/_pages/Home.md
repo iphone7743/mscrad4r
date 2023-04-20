@@ -5,7 +5,7 @@ author_profile: true
 use_math: true
 header:
   overlay_image: /assets/images/URBAN_D0.png
-  overlay_filter: 0.5
+  overlay_filter: 0.7
 ---
 
 
