@@ -1,6 +1,6 @@
 ---
 title: "Urban Dataset"
-permalink: /urban/
+permalink: /urban/overall/
 author_profile: false
 use_math: true
 header:
