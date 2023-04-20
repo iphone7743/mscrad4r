@@ -30,7 +30,7 @@ sidebar:
 **Date** : 2023. 04. 02 \\
 **Location** : Yuseong-Gu, Daejeon, South Korea \\
 **Weather** : Clear     \\
-**Time** : Night        \\
+**Time** : Day          \\
 **Complexity** : ★☆☆☆☆  \\
 **Distance** : 1.8km    \\
 **Description** : Tunnel
