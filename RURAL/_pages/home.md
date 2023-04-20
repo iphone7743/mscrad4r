@@ -5,7 +5,7 @@ author_profile: false
 use_math: true
 header:
   overlay_image: /assets/images/Gangwondo.png
-  overlay_filter: 0.7
+  overlay_filter: 0.5
 
 sidebar:
   nav: sidebar-rural
