@@ -19,7 +19,7 @@ sidebar:
 
 # [1] Stereo Camera Calibration Data
 ![ ](https://drive.google.com/uc?id=153hTy3xDSnDw4dY-KQXW5_k0QobDeSTb)
-The intrinsic parameters, distortion coefficients and extrinsic parameters of stereo camera are obtained from [MATLAB Computer Vision Toolbox](https://kr.mathworks.com/help/vision/ug/camera-calibration.html). \\
+The intrinsic parameters, distortion coefficients and extrinsic parameters of stereo camera are obtained from **MATLAB Computer Vision Toolbox [1]**.\\
 \\
 ☞ Data Download \\
 ☞ [How to use (Korean)](https://blog.naver.com/iphone7743/222784779485)
@@ -29,7 +29,7 @@ The intrinsic parameters, distortion coefficients and extrinsic parameters of st
 
 # [1-2] IMU-Camera Calibration Data
 ![ ](https://drive.google.com/uc?id=10ebEo-mdJjBeg5d5OuEboWfANMEkS6q3)
-Intrinsic parameters and extrinsic parameters of IMU are calibrated by [imu tools package](https://github.com/gaowenliang/imu_utils) and [Kalibr package](https://github.com/ethz-asl/kalibr/wiki). \\
+Intrinsic parameters and extrinsic parameters of IMU are calibrated by **imu tools package [2]** and **Kalibr package [3]**. \\
 \\
 ☞ Data Download \\
 ☞ [How to use (Korean)](https://blog.naver.com/iphone7743/222791696217)
@@ -57,9 +57,14 @@ Radar-camera calibration is performed by traingular reflectors. \\
 
 
 
+<br/>
+<br/>
+<br/>
+<br/>
 
-
-
+[1] [MATLAB Computer Vision Toolbox ](https://kr.mathworks.com/help/vision/ug/camera-calibration.html) \\
+[2] [imu tools package](https://github.com/gaowenliang/imu_utils) \\
+[3] [Kalibr package](https://github.com/ethz-asl/kalibr/wiki)
 
 <br/>
 <br/>
