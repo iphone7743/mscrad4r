@@ -1,14 +1,14 @@
 ---
-title: "Urban Dataset"
-permalink: /urban/
+title: "Rural Dataset"
+permalink: /rural/
 author_profile: false
 use_math: true
 header:
-  overlay_image: /assets/images/fig1_IONIQ.png
+  overlay_image: /assets/images/Gangwondo.png
   overlay_filter: 0.5
 
 sidebar:
-  nav: sidebar-urban
+  nav: sidebar-rural
 ---
 
 <br/>
@@ -17,4 +17,4 @@ sidebar:
 
 
 
-# [1] Urban Test
+# [1] Rural test
