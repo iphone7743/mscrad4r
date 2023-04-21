@@ -18,7 +18,7 @@ sidebar:
 
 
 # [1] Sample Video - *"Rural C1"*
-
+<iframe width="1280" height="660" src="https://www.youtube.com/embed/dU1UpjbtYTU" title="URBAN A0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <br/>
 <br/>
