@@ -40,6 +40,9 @@ sidebar:
 
 
 # [3] Download Link
+[Download RURAL_B2](http://gofile.me/70cMI/nhJGxE9Zj) \\
+[Download Overall RURAL](http://gofile.me/70cMI/q7XYq1KQy) \\
+Password : mscrad4r 
 
 
 
