@@ -52,9 +52,17 @@ RuralE2 | Snowy   | Night |  ★☆☆☆☆     | 0.2km    | Alley
 RuralF0 | Clear   | Day   |  ★☆☆☆☆     | 0.2km    | Alley
 RuralF1 | Clear   | Day   |  ☆☆☆☆☆     | 0.2km    | Alley
 RuralF2 | Snowy   | Night |  ☆☆☆☆☆     | 0.2km    | Alley
-
-
  
+
+<br/>
+<br/>
+
+
+# [3] Download Link
+[Download Overall RURAL](http://gofile.me/70cMI/q7XYq1KQy) \\
+Password : mscrad4r 
+
+
 
 <br/>
 <br/>
